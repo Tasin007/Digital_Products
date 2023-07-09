@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu_container{
+    background-color: rgb(66, 63, 63);
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-pic{
+    width: 120px;
+    padding: 10px;
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-right: 10px;
+    padding-right:10px ;
+    font-size: 20px;
+}
+
+.item:hover{
+    color: blue;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    align-items:center ;
+    justify-content:space-around ;
+    height: 100vh;
+    border: 1px solid gray;
+    background-image: url("./Image/background.png"),linear-gradient(45deg,#000,#888);
+}
+.tittle{
+    font-size:55px ;
+    font-weight: bold;
+}
+.description{
+    font-size:18px;
+    margin-top: 15px;
+    margin: bottom 15px; 
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: blanchedalmond;
+    border-radius: 5px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 30px;
+}
+.tittle{
+    text-align: center;
+    padding: 20px;
+}
+.box{
+    width: 230px;
+    height: 270px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    color: beige;
+}
+.icon{
+    width: 70px;
+
+}
+.btn-one{
+    background-color: rgb(133, 128, 128);
+    margin-top: 5px;
+    padding: 10px;
+    
+}
+.box-tittle{
+    padding: 10px;
+
+}
+.box-description{
+    padding: 6px;
+
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+.boll{
+    width: 230px;
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    
+}
+.third-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+background-color: rgb(68, 72, 92);
+    background-image: url("./Image/background.png"), 
+}
+.footer-container{
+    background-image: linear-gradient(70deg, rgb(0, 0, 0),rgb(41, 34, 34));
+    height: 75vh;
+
+    
+}
+.foot-main{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.foot-p{
+    color: white;
+}
+.links{
+    margin-top: 80px;
+    
+   }
+   .marge{
+    margin-right: 130px;
+   }
+.logo-cont{
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 90px;
+}
+.link-items{
+    list-style: none;
+    text-align: left;
+    
+    padding: 5px;
+}
+.link-items-boss{
+    margin-top: 20px;
+
+   
+}
+.imgs{
+    width: 120px;
+    padding: 10px;
+    margin-right: 10px;
+}
